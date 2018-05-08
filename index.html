@@ -11,6 +11,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
 #content{text-align:center;}
+a {
+text-decoration:none;
+out-line: none;
+color: #333;
+}
 </style>
 <script type="text/javascript">
 $( document ).one( "pagecreate", ".demo_page", function() {
@@ -30,7 +35,7 @@ $( document ).one( "pagecreate", ".demo_page", function() {
 </head>
 <body>
 	<!--第一页-->
-	<div data-role="page" data-title="第一页" id="first" data-theme="a" class="demo_page">
+	<div data-role="page" data-title="广工新闻" id="first" data-theme="a" class="demo_page">
 		<div data-role="header" data-position="fixed">
 			<h1>广工新闻</h1>
             <a href="#second" data-icon="gear" class="ui-btn-right" id="goSecond">theme</a>
@@ -56,11 +61,11 @@ $( document ).one( "pagecreate", ".demo_page", function() {
 		<div data-role="footer">
             <h6>广东工业大学</h6>
             <h6>13430304654</h6>
-            <h6>#</h6>
+            <h6><a href="https://okcthouder.github.io/jquery_mobile_demo/">github</a></h6>
         </div>
 		</div>
 	<!--第二页-->
-	<div data-role="page" data-title="腾讯新闻" id="second" data-theme="b" class="demo_page">
+	<div data-role="page" data-title="广工新闻" id="second" data-theme="b" class="demo_page">
 		<div data-role="header">
 			<a id="gofirst" href="#" data-transition="pop">back</a>
 			<h1>广工新闻</h1>
@@ -87,7 +92,7 @@ $( document ).one( "pagecreate", ".demo_page", function() {
         <div data-role="footer">
             <h6>广东工业大学</h6>
             <h6>13430304654</h6>
-            <h6>#</h6>
+            <h6><a href="https://okcthouder.github.io/jquery_mobile_demo/">github</a></h6>
         </div>
 	</div>
 </body>
